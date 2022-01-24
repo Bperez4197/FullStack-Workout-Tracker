@@ -10,6 +10,7 @@ const workoutSchema = new mongoose.Schema({
     type: Number,
     default: 0,
   },
+  color: { type: String, default: "grey" },
   description: String,
   date: { type: Date, default: new Date() },
   mph: { type: Number, default: 0 },

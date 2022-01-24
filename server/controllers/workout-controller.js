@@ -16,6 +16,7 @@ export const postWorkout = async (req, res) => {
     type,
     distance,
     time,
+    color,
     description,
   });
 
