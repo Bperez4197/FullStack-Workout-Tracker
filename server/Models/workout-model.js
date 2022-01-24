@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 
 const workoutSchema = new mongoose.Schema({
+  createdBy: String,
   type: String,
   distance: {
     type: Number,

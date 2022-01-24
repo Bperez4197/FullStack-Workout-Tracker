@@ -13,6 +13,7 @@ export const postWorkout = async (req, res) => {
   const { type, distance, time, description } = req.body;
 
   const newWorkout = new workoutModel({
+    createdBy,
     type,
     distance,
     time,
